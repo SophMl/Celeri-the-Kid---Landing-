@@ -2,10 +2,15 @@ body {
 	margin: 0px;
 }
 
-
 h1 {
 color: rgb(39,204,192);
 font-family: pacifico ;
+}
+
+#conteneur
+{
+    display: flex;
+    justify-content: center;
 }
 
 p {
@@ -21,11 +26,6 @@ p {
 	line-height: 320px;
 	background-repeat: no-repeat;
 	background-size: width:"1080"; height: "350"
-
-	/ Flexbox */
-	display: flex;
-	align-items: center;
-	justify-content: center
 }
 
 .box {
@@ -39,4 +39,8 @@ p {
 }
 #footer a:hover {
   color: white;
+}
+
+#Photoarrivée {
+	display: 
 }

@@ -1,0 +1,42 @@
+body {
+	margin: 0px;
+}
+
+
+h1 {
+color: rgb(39,204,192);
+font-family: pacifico ;
+}
+
+p {
+	color: rgb(195,204,203);
+}
+
+#vertlégumes {
+	color: rgb(189, 214, 47);
+}
+
+.superImg{
+	background-image: url("images/Photo Site Atelier V10.png");
+	line-height: 320px;
+	background-repeat: no-repeat;
+	background-size: width:"1080"; height: "350"
+
+	/ Flexbox */
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+
+.box {
+	border: 1px solid green;
+
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 15px;
+}
+#footer a:hover {
+  color: white;
+}
